@@ -32,6 +32,92 @@
   font-size: .8em;
 }
 
+.button {
+  position: relative;
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1em;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.tile {
+  background-color: #222;
+  color: #222;
+  font-size: 1em;
+  float: left;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  padding: 5px;
+  height: 300px;
+  width: 300px;
+  border: none;
+  margin: 20px;
+  box-shadow: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.tileimg{
+  height: 290px;
+  width: 290px;
+}
+
+.tileimg-faded{
+  height: 290px;
+  width: 290px;
+  opacity: 0.5;
+}
+
+.tiletext{
+  position: relative;
+  top: -200px;
+  color: white;
+}
+
+.tiledesc{
+  position: relative;
+  top: -200px;
+  color: white;
+}
+
+.modal-title{
+  font-size: 3em;
+}
+
+.modal-image{
+  width: 100%;
+}
+
+.desc{
+  position: relative;
+  top: 10px;
+  text-align: center;
+}
+
+.column{
+  text-align: center;
+  float:left;
+  width: 50%;
+}
+
+.lang{
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  border-radius: 40px;
+  margin: 20px;
+}
+
+.modal-title{
+  float:left;
+}
 
 /**@keyframes App-logo-spin {
   from { transform: rotate(0deg); }
