@@ -1,0 +1,62 @@
+.button {
+  position: relative;
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1em;
+  text-decoration: none;
+  margin: 20px;
+}
+
+button:focus {
+  outline: none;
+}
+
+/*.newmodal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-color: white;
+  padding: 20px;
+  scroll-behavior: true;
+}*/
+
+.newmodal:focus {
+  outline: none;
+}
+
+.modal-title{
+  font-size: 3em;
+}
+
+.modal-image{
+  width: 100%;
+}
+
+.desc{
+  position: relative;
+  top: 10px;
+  text-align: center;
+}
+
+.column{
+  text-align: center;
+  float:left;
+  width: 50%;
+}
+
+.lang{
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  border-radius: 40px;
+  margin: 20px;
+}
+
+.modal-title{
+  float:left;
+}

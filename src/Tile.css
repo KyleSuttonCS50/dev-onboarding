@@ -1,0 +1,26 @@
+button:focus {
+  outline: none;
+}
+
+.tileimg{
+  height: 290px;
+  width: 290px;
+}
+
+.tileimg-faded{
+  height: 290px;
+  width: 290px;
+  opacity: 0.5;
+}
+
+.tiletext{
+  position: relative;
+  top: -200px;
+  color: white;
+}
+
+.tiledesc{
+  position: relative;
+  top: -200px;
+  color: white;
+}

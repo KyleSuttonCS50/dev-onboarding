@@ -32,17 +32,6 @@
   font-size: .8em;
 }
 
-.button {
-  position: relative;
-  background-color: #222;
-  color: white;
-  padding: 10px;
-  border-radius: 10px;
-  border: none;
-  font-size: 1em;
-  text-decoration: none;
-  margin: 20px;
-}
 
 .tile {
   background-color: #222;
@@ -64,27 +53,16 @@ button:focus {
   outline: none;
 }
 
-.tileimg{
-  height: 290px;
-  width: 290px;
-}
-
-.tileimg-faded{
-  height: 290px;
-  width: 290px;
-  opacity: 0.5;
-}
-
-.tiletext{
+.button {
   position: relative;
-  top: -200px;
+  background-color: #222;
   color: white;
-}
-
-.tiledesc{
-  position: relative;
-  top: -200px;
-  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1em;
+  text-decoration: none;
+  margin: 20px;
 }
 
 .modal-title{
