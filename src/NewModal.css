@@ -14,16 +14,16 @@ button:focus {
   outline: none;
 }
 
-/*.newmodal {
+.newmodal {
   position: absolute;
-  top: 40px;
-  left: 40px;
-  right: 40px;
-  bottom: 40px;
+  top: 100px;
+  left: 100px;
+  right: 100px;
+  bottom: 100px;
   background-color: white;
-  padding: 20px;
-  scroll-behavior: true;
-}*/
+  padding: 30px;
+  overflow: scroll;
+}
 
 .newmodal:focus {
   outline: none;

@@ -10,6 +10,7 @@ class Tile extends Component {
     this.mouseOver = this.mouseOver.bind(this);
     this.mouseLeave = this.mouseLeave.bind(this);
   }
+  
   mouseOver() {
     this.setState({hover: true})
   }

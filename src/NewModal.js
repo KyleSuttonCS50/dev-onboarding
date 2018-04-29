@@ -47,6 +47,7 @@ class NewModal extends Component {
           isOpen={this.state.modalIsOpen}
           onAfterOpen={()=>this.afterOpenModal}
           onRequestClose={this.closeModal}
+          className='newmodal'
           contentLabel={this.props.modalid}
           close={this.closeModal}
         >
