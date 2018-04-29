@@ -9,7 +9,7 @@ import Basic from './basic.js';
 import Education from './education.js';
 import ProfExp from './profexp.js';
 import Contact from './contact.js';
-import FontAwesome from './fontawesome-free-5.0.10/svg-with-js/js/fontawesome-all.js'
+import FontAwesome from './fontawesome-all.js'
 
 class App extends Component {
   constructor(props){
