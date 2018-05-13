@@ -60,11 +60,9 @@ class NewModal extends Component {
             <h2>Languages Used:</h2>
             {this.state.langs.map(function(listValue){
               return <p className="lang">{listValue}</p>;
-            })}           
-          </div>
-          <div className="desc"> 
+            })}
             <a className="button" href={this.state.link} target="_"> GitHub Repository </a>
-            <button className="button" onClick={this.closeModal}>Close</button>
+            <button className="button" onClick={this.closeModal}>Close</button>           
           </div>
         </Modal>
       </div>

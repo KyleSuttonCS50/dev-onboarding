@@ -9,7 +9,7 @@ class Education extends Component {
           Education
         </h1>
         <p className="body"> 
-          I'm currently a rising sophomore studying full-time at Harvard College. 
+          I'm currently a rising sophomore studying full-time in the Harvard College Class of 2021. 
           I plan to pursue an A.B. in Computer Science.
         </p>
       </div>
