@@ -54,7 +54,7 @@ class NewModal extends Component {
           <h1> {this.state.title} </h1>
           <div className="column">
             <img src={this.state.img} className="modal-image"/>
-            <p> {this.state.desc} </p>
+            <p className="desc"> {this.state.desc} </p>
           </div>
           <div className="column"> 
             <h2>Languages Used:</h2>

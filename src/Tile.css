@@ -17,10 +17,12 @@ button:focus {
   position: relative;
   top: -200px;
   color: white;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .tiledesc{
   position: relative;
   top: -200px;
   color: white;
+  font-family: 'Nunito Sans', sans-serif;
 }
