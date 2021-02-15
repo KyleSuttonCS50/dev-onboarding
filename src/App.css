@@ -11,27 +11,146 @@
 
 .App-header {
   padding: 40px;
+  background-image: url('cover.jpg');
+  background-repeat: repeat-x repeat-y;
+  background-position: 0px 61.5%;
+  background-size: 1500px;
   background-color: #222;
-  height: 175px;
   color: white;
 }
 
 .App-title {
+  display: block;
   position: relative;
-  top:-15px;
-  left:40px;
   text-align: left;
+  top:10px;
+  left:60px;
   font-size: 2.25em;
 }
 
 .info {
   position: relative;
-  top: -15px;
-  left:40px;
+  top: 10px;
+  left: 60px;
   text-align: left;
   font-size: .8em;
 }
 
+.tile {
+  background-color: #222;
+  color: #222;
+  font-size: 1em;
+  float: left;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  padding: 5px;
+  height: 300px;
+  width: 300px;
+  border: none;
+  margin: 20px;
+  box-shadow: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.NavBar {
+  border:3px solid #222;
+}
+
+.Nav {
+  padding: 10px;
+  width: 20%;
+  border: 3px solid #222;
+  height: 100%;
+}
+
+.Nav:focus {
+  background-color: #D3D3D3;
+}
+
+.icons {
+  position: relative;
+  top: 10px;
+  left: 55px;
+  text-align: left;
+  font-size: 1.4em;
+}
+
+.icons-body{
+  position: center;
+  font-size: 1.4em;
+}
+
+.icon {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.body {
+  width: 60%;
+  position: relative;
+  left: 20%;
+}
+
+.Content{
+  margin: 20px;
+  height: 100%;
+}
+
+.link {
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 550px) {
+  .App-logo {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .App-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+  }
+  .info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+  }
+  .icons{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+  }
+  .Nav {
+    width: 100%;
+  }
+  .tile {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    float: none;
+  }
+}
 
 /**@keyframes App-logo-spin {
   from { transform: rotate(0deg); }
